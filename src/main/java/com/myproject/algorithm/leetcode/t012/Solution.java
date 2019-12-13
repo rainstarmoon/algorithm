@@ -1,8 +1,10 @@
 package com.myproject.algorithm.leetcode.t012;
 
+import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
+@Deprecated
 public class Solution {
 
     public static void main(String[] args) {
@@ -38,14 +40,16 @@ public class Solution {
         }
     }
 
-}
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
+        TreeNode(int x) {
+            val = x;
+        }
     }
+
+
 }
+
