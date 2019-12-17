@@ -2,6 +2,10 @@ package com.myproject.algorithm.leetcode.t46;
 
 import java.util.*;
 
+/**
+ * 全排列
+ * 也比较复杂
+ */
 public class Solution {
 
     public static void main(String[] args) {
