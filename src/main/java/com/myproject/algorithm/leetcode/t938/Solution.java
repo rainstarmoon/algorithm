@@ -1,5 +1,7 @@
 package com.myproject.algorithm.leetcode.t938;
 
+import com.myproject.algorithm.leetcode.common.TreeNode;
+
 public class Solution {
     int ans = 0;
 
@@ -19,16 +21,6 @@ public class Solution {
             if (node.val < R) {
                 dfs(node.right, L, R);
             }
-        }
-    }
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
         }
     }
 

@@ -1,5 +1,7 @@
 package com.myproject.algorithm.leetcode.t203;
 
+import com.myproject.algorithm.leetcode.common.ListNode;
+
 @Deprecated
 public class Solution {
 
@@ -30,15 +32,6 @@ public class Solution {
             head = head.next;
         }
         return head;
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 
 }

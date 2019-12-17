@@ -1,6 +1,7 @@
 package com.myproject.algorithm.leetcode.t103;
 
-import javax.swing.tree.TreeNode;
+import com.myproject.algorithm.leetcode.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -42,16 +43,6 @@ public class Solution {
             i++;
         }
         return levels;
-    }
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 
 }

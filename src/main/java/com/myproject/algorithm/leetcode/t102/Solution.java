@@ -1,5 +1,7 @@
 package com.myproject.algorithm.leetcode.t102;
 
+import com.myproject.algorithm.leetcode.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,17 +40,6 @@ public class Solution {
             helper(node.right, level + 1);
         }
     }
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
 
 }
 

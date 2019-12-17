@@ -2,7 +2,6 @@ package com.myproject.algorithm.leetcode.t46;
 
 import java.util.*;
 
-@Deprecated
 public class Solution {
 
     public static void main(String[] args) {

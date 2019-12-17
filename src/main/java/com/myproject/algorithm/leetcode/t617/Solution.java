@@ -1,5 +1,7 @@
 package com.myproject.algorithm.leetcode.t617;
 
+import com.myproject.algorithm.leetcode.common.TreeNode;
+
 @Deprecated
 public class Solution {
 
@@ -19,13 +21,4 @@ public class Solution {
         return node;
     }
 
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }
