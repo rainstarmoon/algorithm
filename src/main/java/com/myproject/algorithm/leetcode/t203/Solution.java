@@ -2,6 +2,13 @@ package com.myproject.algorithm.leetcode.t203;
 
 import com.myproject.algorithm.leetcode.common.ListNode;
 
+/**
+ * 删除链表中等于给定值 val 的所有节点。
+ * <p>
+ * 示例:
+ * 输入: 1->2->6->3->4->5->6, val = 6
+ * 输出: 1->2->3->4->5
+ */
 @Deprecated
 public class Solution {
 
