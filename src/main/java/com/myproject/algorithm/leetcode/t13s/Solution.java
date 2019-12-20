@@ -44,7 +44,7 @@ public class Solution {
         int bufferNum = 0;
         for (int i = 0, length = chars.length; i < length; i++) {
             char c = chars[i];
-            int num = romanCHarToInt(c);
+            int num = romanCharToInt(c);
             if (num > lastNum) {
                 bufferNum = num - bufferNum;
             } else if (num == lastNum) {
@@ -59,7 +59,7 @@ public class Solution {
         return result;
     }
 
-    private int romanCHarToInt(char c) {
+    private int romanCharToInt(char c) {
         int num = 0;
         switch (c) {
             case 'I':
