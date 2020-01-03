@@ -2,7 +2,9 @@ package com.myproject.algorithm.leetcode.t69s;
 
 /**
  * 牛顿法
+ * 太精彩了
  */
+@Deprecated
 public class Solution {
 
     public int mySqrt(int a) {
