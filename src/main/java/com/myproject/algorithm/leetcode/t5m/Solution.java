@@ -2,7 +2,7 @@ package com.myproject.algorithm.leetcode.t5m;
 
 /**
  * 最长回文子串
- * 非常负责需要再看
+ * 非常复杂需要再看
  */
 public class Solution {
 
